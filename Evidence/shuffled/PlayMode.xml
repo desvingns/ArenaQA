@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="44" result="Failed(Child)" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:27Z" duration="0,323991">
+  <test-suite type="TestSuite" id="1105" name="ArenaQA" fullname="ArenaQA" runstate="Runnable" testcasecount="44" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:27Z" duration="0.323991" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="suiteIsReordered" value="True" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1106" name="Arena.Tests.PlayMode.dll" fullname="Arena.Tests.PlayMode.dll" runstate="Runnable" testcasecount="44" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:27Z" duration="0.306084" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20716" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+        <property name="suiteIsReordered" value="True" />
+        <property name="childIndex" value="1" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1107" name="Arena" fullname="Arena" runstate="Runnable" testcasecount="44" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:27Z" duration="0.294792" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="suiteIsReordered" value="True" />
+          <property name="childIndex" value="2" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1108" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="44" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:27Z" duration="0.289688" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="suiteIsReordered" value="True" />
+            <property name="childIndex" value="3" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1109" name="PlayMode" fullname="PlayMode" runstate="Runnable" testcasecount="44" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.284308" total="44" passed="29" failed="15" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="suiteIsReordered" value="True" />
+              <property name="childIndex" value="4" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1110" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.068024" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="5" />
+              </properties>
+              <test-case id="1018" name="TakeDamage_IgnoredHitDoesNotRestartWindow_AcceptedHitDoes" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_IgnoredHitDoesNotRestartWindow_AcceptedHitDoes" methodname="TakeDamage_IgnoredHitDoesNotRestartWindow_AcceptedHitDoes" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1387525602" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.051066" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1111" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.019850" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="6" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1039" name="Pool_ReusedProjectile_ResetsHasHitAndCanDamageAgain" fullname="Arena.Tests.PlayMode.ProjectileTests.Pool_ReusedProjectile_ResetsHasHitAndCanDamageAgain" methodname="Pool_ReusedProjectile_ResetsHasHitAndCanDamageAgain" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1427279692" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.007378" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1036" name="HandleHit_SecondTargetInSameFlight_DoesNotDamageSecondTarget" fullname="Arena.Tests.PlayMode.ProjectileTests.HandleHit_SecondTargetInSameFlight_DoesNotDamageSecondTarget" methodname="HandleHit_SecondTargetInSameFlight_DoesNotDamageSecondTarget" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="787183746" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.010671" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: <empty>
+  But was:  < 17 >
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.ProjectileTests.HandleHit_SecondTargetInSameFlight_DoesNotDamageSecondTarget () [0x00055] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\ProjectileTests.cs:108
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1112" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.020425" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="7" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1048" name="ControlRun_CreatesNineEnemies" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.ControlRun_CreatesNineEnemies" methodname="ControlRun_CreatesNineEnemies" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="115116636" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.019337" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 9
+  But was:  5
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.WaveSpawnerTests+<ControlRun_CreatesNineEnemies>d__6.MoveNext () [0x0004e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\WaveSpawnerTests.cs:110
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1113" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.003006" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="8" />
+                <property name="childIndex" value="2" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1035" name="HandleHit_RepeatedSameTarget_AppliesDamageOnlyOnce" fullname="Arena.Tests.PlayMode.ProjectileTests.HandleHit_RepeatedSameTarget_AppliesDamageOnlyOnce" methodname="HandleHit_RepeatedSameTarget_AppliesDamageOnlyOnce" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1640373723" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002385" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <System.Int32[1]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements
+  Values differ at index [1]
+  Extra:    < 17 >]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.ProjectileTests.HandleHit_RepeatedSameTarget_AppliesDamageOnlyOnce () [0x0002e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\ProjectileTests.cs:96
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1114" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.007179" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="9" />
+                <property name="childIndex" value="2" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1046" name="ControlRun_WaveStarted_EmitsIndicesZeroOneTwo" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.ControlRun_WaveStarted_EmitsIndicesZeroOneTwo" methodname="ControlRun_WaveStarted_EmitsIndicesZeroOneTwo" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="887767807" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.006519" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements
+  Values differ at index [2]
+  Missing:  < 2 >]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.WaveSpawnerTests+<ControlRun_WaveStarted_EmitsIndicesZeroOneTwo>d__4.MoveNext () [0x0004e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\WaveSpawnerTests.cs:94
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1115" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.004203" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="10" />
+                <property name="childIndex" value="2" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1116" name="Heal_PositiveAmount_RestoresHpUpToMaximum" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001506" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="11" />
+                </properties>
+                <test-case id="1026" name="Heal_PositiveAmount_RestoresHpUpToMaximum(50,100)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum(50,100)" methodname="Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="791348740" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000850" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1117" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001876" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="12" />
+                </properties>
+                <test-case id="1012" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(3)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(3)" methodname="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="237044699" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001390" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1118" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.011629" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="13" />
+                <property name="childIndex" value="3" />
+              </properties>
+              <test-case id="1051" name="AliveCount_TracksSpawnAndDeaths_CompletionWaitsForLastEnemy" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.AliveCount_TracksSpawnAndDeaths_CompletionWaitsForLastEnemy" methodname="AliveCount_TracksSpawnAndDeaths_CompletionWaitsForLastEnemy" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="533074644" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.007198" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1052" name="SpawnInterval_SeparatesFactoryCallsWithinWave" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.SpawnInterval_SeparatesFactoryCallsWithinWave" methodname="SpawnInterval_SeparatesFactoryCallsWithinWave" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="1866965954" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.003585" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1119" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.003455" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="14" />
+                <property name="childIndex" value="3" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1120" name="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002540" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="15" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1008" name="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(0.5f)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(0.5f)" methodname="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="261828184" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001229" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 90
+  But was:  100
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable (System.Single duration) [0x0002a] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\HealthTests.cs:54
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1007" name="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(0.0f)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(0.0f)" methodname="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1108750946" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000498" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1121" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.014442" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="16" />
+                <property name="childIndex" value="3" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1038" name="Pool_ReusedProjectile_ResetsElapsedToZero" fullname="Arena.Tests.PlayMode.ProjectileTests.Pool_ReusedProjectile_ResetsElapsedToZero" methodname="Pool_ReusedProjectile_ResetsElapsedToZero" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1548695301" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.006568" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 0
+  But was:  0.100000001f
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.ProjectileTests+<Pool_ReusedProjectile_ResetsElapsedToZero>d__8.MoveNext () [0x000fa] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\ProjectileTests.cs:135
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1040" name="Pool_ThreeFlights_EachReceivesFullLifetime" fullname="Arena.Tests.PlayMode.ProjectileTests.Pool_ThreeFlights_EachReceivesFullLifetime" methodname="Pool_ThreeFlights_EachReceivesFullLifetime" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1678408918" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.005951" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Flight 1 must receive its own complete lifetime
+  Expected: greater than or equal to 0.199000001f
+  But was:  0.0166664124f
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.ProjectileTests+<Pool_ThreeFlights_EachReceivesFullLifetime>d__10.MoveNext () [0x00157] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\ProjectileTests.cs:167
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1033" name="HandleHit_Damageable_ReceivesConfiguredDamageAndSetsHasHit" fullname="Arena.Tests.PlayMode.ProjectileTests.HandleHit_Damageable_ReceivesConfiguredDamageAndSetsHasHit" methodname="HandleHit_Damageable_ReceivesConfiguredDamageAndSetsHasHit" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1538933952" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000773" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1122" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.004325" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="17" />
+                <property name="childIndex" value="4" />
+              </properties>
+              <test-case id="1002" name="Configure_SetsMaxAndCurrentHealth_UnitIsAlive" fullname="Arena.Tests.PlayMode.HealthTests.Configure_SetsMaxAndCurrentHealth_UnitIsAlive" methodname="Configure_SetsMaxAndCurrentHealth_UnitIsAlive" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1145451031" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000925" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1123" name="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001311" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="18" />
+                </properties>
+                <test-case id="1003" name="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(0)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(0)" methodname="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="2086771752" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000805" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1124" name="Heal_NonPositive_IsIgnored" fullname="Arena.Tests.PlayMode.HealthTests.Heal_NonPositive_IsIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001063" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="19" />
+                </properties>
+                <test-case id="1021" name="Heal_NonPositive_IsIgnored(int.MinValue)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_NonPositive_IsIgnored(int.MinValue)" methodname="Heal_NonPositive_IsIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1823526756" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000602" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1125" name="SmokePlayModeTests" fullname="Arena.Tests.PlayMode.SmokePlayModeTests" classname="Arena.Tests.PlayMode.SmokePlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002807" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="20" />
+              </properties>
+              <test-case id="1043" name="TestAssembly_IsWiredUp" fullname="Arena.Tests.PlayMode.SmokePlayModeTests.TestAssembly_IsWiredUp" methodname="TestAssembly_IsWiredUp" classname="Arena.Tests.PlayMode.SmokePlayModeTests" runstate="Runnable" seed="2025569770" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002093" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1126" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001994" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="21" />
+                <property name="childIndex" value="5" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1127" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001321" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="22" />
+                </properties>
+                <test-case id="1014" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(int.MaxValue)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(int.MaxValue)" methodname="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="506177481" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000893" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1128" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.019416" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="23" />
+                <property name="childIndex" value="4" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1047" name="ControlRun_WaveCompleted_EmitsIndicesZeroOneTwo" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.ControlRun_WaveCompleted_EmitsIndicesZeroOneTwo" methodname="ControlRun_WaveCompleted_EmitsIndicesZeroOneTwo" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="2141184298" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.009101" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements
+  Values differ at index [2]
+  Missing:  < 2 >]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.WaveSpawnerTests+<ControlRun_WaveCompleted_EmitsIndicesZeroOneTwo>d__5.MoveNext () [0x0004e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\WaveSpawnerTests.cs:102
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1049" name="ControlRun_AllCompletedOnce_AndIsRunningIsFalseAtNotification" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.ControlRun_AllCompletedOnce_AndIsRunningIsFalseAtNotification" methodname="ControlRun_AllCompletedOnce_AndIsRunningIsFalseAtNotification" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="2031924604" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.009327" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1129" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.007176" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="24" />
+                <property name="childIndex" value="4" />
+              </properties>
+              <test-case id="1031" name="Flight_RotatedProjectile_MovesAlongLocalZAtSpeedAndAccumulatesTime" fullname="Arena.Tests.PlayMode.ProjectileTests.Flight_RotatedProjectile_MovesAlongLocalZAtSpeedAndAccumulatesTime" methodname="Flight_RotatedProjectile_MovesAlongLocalZAtSpeedAndAccumulatesTime" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="219454184" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.006551" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1130" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002612" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="25" />
+                <property name="childIndex" value="5" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1050" name="SingleWave_RunActuallySpawnsAndCompletesItsOnlyWave" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.SingleWave_RunActuallySpawnsAndCompletesItsOnlyWave" methodname="SingleWave_RunActuallySpawnsAndCompletesItsOnlyWave" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="1104606064" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002043" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <System.Int32[1]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 0 elements
+  Values differ at index [0]
+  Missing:  < 1 >]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.WaveSpawnerTests+<SingleWave_RunActuallySpawnsAndCompletesItsOnlyWave>d__8.MoveNext () [0x0004e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\WaveSpawnerTests.cs:131
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1131" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001152" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="26" />
+                <property name="childIndex" value="6" />
+              </properties>
+              <test-case id="1023" name="Heal_DeadUnit_DoesNotResurrect" fullname="Arena.Tests.PlayMode.HealthTests.Heal_DeadUnit_DoesNotResurrect" methodname="Heal_DeadUnit_DoesNotResurrect" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1043290998" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000621" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1132" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001353" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="27" />
+                <property name="childIndex" value="5" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1034" name="HandleHit_FirstDamageable_EmitsExpiredSynchronously" fullname="Arena.Tests.PlayMode.ProjectileTests.HandleHit_FirstDamageable_EmitsExpiredSynchronously" methodname="HandleHit_FirstDamageable_EmitsExpiredSynchronously" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1774655004" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000840" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expired must occur before HandleHit returns
+  Expected: 1
+  But was:  0
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.ProjectileTests.HandleHit_FirstDamageable_EmitsExpiredSynchronously () [0x0005c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\ProjectileTests.cs:86
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1133" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.015862" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="28" />
+                <property name="childIndex" value="7" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1134" name="Heal_PositiveAmount_RestoresHpUpToMaximum" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000792" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="29" />
+                </properties>
+                <test-case id="1024" name="Heal_PositiveAmount_RestoresHpUpToMaximum(10,90)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum(10,90)" methodname="Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="354310134" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000397" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1029" name="Heal_DuringInvulnerability_DoesNotShortenOrExtendWindow" fullname="Arena.Tests.PlayMode.HealthTests.Heal_DuringInvulnerability_DoesNotShortenOrExtendWindow" methodname="Heal_DuringInvulnerability_DoesNotShortenOrExtendWindow" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1528760625" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.011483" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1135" name="Heal_NonPositive_IsIgnored" fullname="Arena.Tests.PlayMode.HealthTests.Heal_NonPositive_IsIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001472" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="30" />
+                </properties>
+                <test-case id="1020" name="Heal_NonPositive_IsIgnored(-1)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_NonPositive_IsIgnored(-1)" methodname="Heal_NonPositive_IsIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1093985563" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000410" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1019" name="Heal_NonPositive_IsIgnored(0)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_NonPositive_IsIgnored(0)" methodname="Heal_NonPositive_IsIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="489999864" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000511" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1136" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000919" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="31" />
+                </properties>
+                <test-case id="1013" name="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(10)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp(10)" methodname="TakeDamage_Lethal_ClampsToZeroAndReportsOnlyRemainingHp" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1943491007" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000465" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1137" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.008265" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="32" />
+                <property name="childIndex" value="6" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1045" name="ControlRun_WaveSizes_AreTwoThreeFour" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.ControlRun_WaveSizes_AreTwoThreeFour" methodname="ControlRun_WaveSizes_AreTwoThreeFour" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="1633292309" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.007553" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements
+  Values differ at index [2]
+  Missing:  < 4 >]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.WaveSpawnerTests+<ControlRun_WaveSizes_AreTwoThreeFour>d__3.MoveNext () [0x0004e] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\WaveSpawnerTests.cs:86
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1138" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.016194" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="33" />
+                <property name="childIndex" value="8" />
+              </properties>
+              <test-case id="1017" name="TakeDamage_InsideWindow_IgnoresDamageAndEvents_ThenAcceptsAfterExpiry" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_InsideWindow_IgnoresDamageAndEvents_ThenAcceptsAfterExpiry" methodname="TakeDamage_InsideWindow_IgnoresDamageAndEvents_ThenAcceptsAfterExpiry" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1111632724" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.015473" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1139" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.005308" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="34" />
+                <property name="childIndex" value="6" />
+              </properties>
+              <test-case id="1041" name="PhysicsTrigger_DamageableCollider_DelegatesHitToDamageable" fullname="Arena.Tests.PlayMode.ProjectileTests.PhysicsTrigger_DamageableCollider_DelegatesHitToDamageable" methodname="PhysicsTrigger_DamageableCollider_DelegatesHitToDamageable" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1185474228" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.004677" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1140" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.002645" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="35" />
+                <property name="childIndex" value="9" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1011" name="TakeDamage_AlreadyDead_IsCompletelyIgnored" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_AlreadyDead_IsCompletelyIgnored" methodname="TakeDamage_AlreadyDead_IsCompletelyIgnored" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="499624469" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000939" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 0
+  But was:  1
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.HealthTests.TakeDamage_AlreadyDead_IsCompletelyIgnored () [0x00062] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\HealthTests.cs:69
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1141" name="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000973" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="36" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1009" name="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(100000.0f)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(100000.0f)" methodname="TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1157631175" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000566" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 90
+  But was:  100
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.PlayMode.HealthTests.TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable (System.Single duration) [0x0002a] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\HealthTests.cs:54
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1142" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.006255" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="37" />
+                <property name="childIndex" value="7" />
+              </properties>
+              <test-case id="1032" name="Lifetime_ExpiresAtFirstFrameReachingLimit_NotBefore" fullname="Arena.Tests.PlayMode.ProjectileTests.Lifetime_ExpiresAtFirstFrameReachingLimit_NotBefore" methodname="Lifetime_ExpiresAtFirstFrameReachingLimit_NotBefore" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="1944924066" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.005641" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1143" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.003487" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="38" />
+                <property name="childIndex" value="10" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1016" name="TakeDamage_MultipleHitsAfterDeath_EmitsDiedExactlyOnce" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_MultipleHitsAfterDeath_EmitsDiedExactlyOnce" methodname="TakeDamage_MultipleHitsAfterDeath_EmitsDiedExactlyOnce" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="635932028" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001025" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: 1
+  But was:  3
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.PlayMode.HealthTests.TakeDamage_MultipleHitsAfterDeath_EmitsDiedExactlyOnce () [0x00056] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\HealthTests.cs:108
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1144" name="Heal_PositiveAmount_RestoresHpUpToMaximum" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001453" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="39" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1027" name="Heal_PositiveAmount_RestoresHpUpToMaximum(int.MaxValue,100)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum(int.MaxValue,100)" methodname="Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1558273228" result="Failed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001008" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -2147483569
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum (System.Int32 amount, System.Int32 expected) [0x0001c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\PlayMode\HealthTests.cs:182
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1145" name="ProjectileTests" fullname="Arena.Tests.PlayMode.ProjectileTests" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.001452" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="40" />
+                <property name="childIndex" value="8" />
+              </properties>
+              <test-case id="1037" name="HandleHit_NonDamageable_IsIgnoredAndDoesNotConsumeFlight" fullname="Arena.Tests.PlayMode.ProjectileTests.HandleHit_NonDamageable_IsIgnoredAndDoesNotConsumeFlight" methodname="HandleHit_NonDamageable_IsIgnoredAndDoesNotConsumeFlight" classname="Arena.Tests.PlayMode.ProjectileTests" runstate="Runnable" seed="2053464390" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000873" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1146" name="HealthTests" fullname="Arena.Tests.PlayMode.HealthTests" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.011235" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="41" />
+                <property name="childIndex" value="11" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1147" name="Heal_PositiveAmount_RestoresHpUpToMaximum" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000804" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="42" />
+                </properties>
+                <test-case id="1025" name="Heal_PositiveAmount_RestoresHpUpToMaximum(20,100)" fullname="Arena.Tests.PlayMode.HealthTests.Heal_PositiveAmount_RestoresHpUpToMaximum(20,100)" methodname="Heal_PositiveAmount_RestoresHpUpToMaximum" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1724042632" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000414" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1148" name="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.008387" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="43" />
+                </properties>
+                <test-case id="1005" name="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(int.MinValue)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(int.MinValue)" methodname="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="287071678" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.000414" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1004" name="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(-1)" fullname="Arena.Tests.PlayMode.HealthTests.TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents(-1)" methodname="TakeDamage_NonPositive_DoesNotChangeHealthOrEmitEvents" classname="Arena.Tests.PlayMode.HealthTests" runstate="Runnable" seed="1323106820" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.004059" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1149" name="WaveSpawnerTests" fullname="Arena.Tests.PlayMode.WaveSpawnerTests" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.009659" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="44" />
+                <property name="childIndex" value="7" />
+              </properties>
+              <test-case id="1053" name="NextWave_StartsOnlyAfterCompletionAndInterWaveDelay" fullname="Arena.Tests.PlayMode.WaveSpawnerTests.NextWave_StartsOnlyAfterCompletionAndInterWaveDelay" methodname="NextWave_StartsOnlyAfterCompletionAndInterWaveDelay" classname="Arena.Tests.PlayMode.WaveSpawnerTests" runstate="Runnable" seed="1378822028" result="Passed" start-time="2026-09-09 05:34:26Z" end-time="2026-09-09 05:34:26Z" duration="0.008748" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\TestResults\20260909-073409-898\PlayMode.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

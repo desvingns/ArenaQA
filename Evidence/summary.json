@@ -1,0 +1,321 @@
+{
+  "editor": "6000.6.0f1",
+  "test_framework": "1.8.0",
+  "original_editor": "6000.3.11f1",
+  "original_test_framework": "1.6.0",
+  "runs": [
+    {
+      "label": "default",
+      "random_order_seed": 0,
+      "modes": {
+        "EditMode": {
+          "total": "52",
+          "passed": "22",
+          "failed": "30",
+          "skipped": "0",
+          "duration": "0,1238775"
+        },
+        "PlayMode": {
+          "total": "44",
+          "passed": "29",
+          "failed": "15",
+          "skipped": "0",
+          "duration": "0,2533596"
+        }
+      }
+    },
+    {
+      "label": "shuffled",
+      "random_order_seed": 20260909,
+      "modes": {
+        "EditMode": {
+          "total": "52",
+          "passed": "22",
+          "failed": "30",
+          "skipped": "0",
+          "duration": "0,1977224"
+        },
+        "PlayMode": {
+          "total": "44",
+          "passed": "29",
+          "failed": "15",
+          "skipped": "0",
+          "duration": "0,323991"
+        }
+      }
+    }
+  ],
+  "failures": [
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_ZeroBaseDamage_ReturnsMinimumOne",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_NegativeBaseDamage_ReturnsMinimumOne",
+      "message": "Expected: 1\n  But was:  -10"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_Minus100PercentBonus_ReturnsMinimumOne",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_ZeroCriticalMultiplier_ReturnsMinimumOne",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_MinIntArmor_IsClampedToZero",
+      "message": "Expected: 100\n  But was:  -1"
+    },
+    {
+      "bug": 12,
+      "mode": "EditMode",
+      "name": "Calculate_LargeIntegerWithoutModifiers_PreservesDamage",
+      "message": "Expected: 16777217\n  But was:  16777216"
+    },
+    {
+      "bug": 12,
+      "mode": "EditMode",
+      "name": "Calculate_MaxIntBaseWith100Armor_FloorsExactHalf",
+      "message": "Expected: 1073741823\n  But was:  1073741824"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_SpecificationRow_ReturnsExpectedDamage(5,0.0f,900,False,1.0f,1)",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_SpecificationRow_ReturnsExpectedDamage(1,0.0f,400,False,1.0f,1)",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-50,False,1.0f,100)",
+      "message": "Expected: 100\n  But was:  200"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-100,False,1.0f,100)",
+      "message": "Expected: 100\n  But was:  -2147483648"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-1000,False,1.0f,100)",
+      "message": "Expected: 100\n  But was:  -12"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(5,900,1)",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 9,
+      "mode": "EditMode",
+      "name": "Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(1,400,1)",
+      "message": "Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-50,100)",
+      "message": "Expected: 100\n  But was:  200"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-100,100)",
+      "message": "Expected: 100\n  But was:  -2147483648"
+    },
+    {
+      "bug": 8,
+      "mode": "EditMode",
+      "name": "Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-1000,100)",
+      "message": "Expected: 100\n  But was:  -12"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_ControlRowReturnsExpectedId(1,\"B\")",
+      "message": "String lengths are both 1. Strings differ at index 0.\n  Expected: \"B\"\n  But was:  \"A\"\n  -----------^"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_ControlRowReturnsExpectedId(2,\"C\")",
+      "message": "String lengths are both 1. Strings differ at index 0.\n  Expected: \"C\"\n  But was:  \"B\"\n  -----------^"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_OutOfRangeThrows(3)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_OutOfRangeThrows(-1)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_OutOfRangeThrows(int.MinValue)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_EqualWeights_OutOfRangeThrows(int.MaxValue)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_LeadingZeroWeight_RollEqualToTotalThrows",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_LeadingZeroWeight_RollZeroReturnsB",
+      "message": "String lengths are both 1. Strings differ at index 0.\n  Expected: \"B\"\n  But was:  \"A\"\n  -----------^"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_RarityWeights_ControlRowReturnsExpectedId(70,\"rare\")",
+      "message": "Expected string length 4 but was 6. Strings differ at index 0.\n  Expected: \"rare\"\n  But was:  \"common\"\n  -----------^"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_RarityWeights_ControlRowReturnsExpectedId(95,\"epic\")",
+      "message": "String lengths are both 4. Strings differ at index 0.\n  Expected: \"epic\"\n  But was:  \"rare\"\n  -----------^"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_RarityWeights_OutOfRangeThrows(-1)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 11,
+      "mode": "EditMode",
+      "name": "Pick_RarityWeights_OutOfRangeThrows(100)",
+      "message": "Expected: <System.ArgumentOutOfRangeException>\n  But was:  null"
+    },
+    {
+      "bug": 10,
+      "mode": "EditMode",
+      "name": "Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry(1,\"B\")",
+      "message": "String lengths are both 1. Strings differ at index 0.\n  Expected: \"B\"\n  But was:  \"A\"\n  -----------^"
+    },
+    {
+      "bug": 7,
+      "mode": "PlayMode",
+      "name": "Heal_PositiveAmount_RestoresHpUpToMaximum(int.MaxValue,100)",
+      "message": "Expected: 100\n  But was:  -2147483569"
+    },
+    {
+      "bug": 5,
+      "mode": "PlayMode",
+      "name": "TakeDamage_AlreadyDead_IsCompletelyIgnored",
+      "message": "Expected: 0\n  But was:  1"
+    },
+    {
+      "bug": 5,
+      "mode": "PlayMode",
+      "name": "TakeDamage_MultipleHitsAfterDeath_EmitsDiedExactlyOnce",
+      "message": "Expected: 1\n  But was:  3"
+    },
+    {
+      "bug": 6,
+      "mode": "PlayMode",
+      "name": "TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(0.5f)",
+      "message": "Expected: 90\n  But was:  100"
+    },
+    {
+      "bug": 6,
+      "mode": "PlayMode",
+      "name": "TakeDamage_NewUnitInCreationFrame_IsImmediatelyVulnerable(100000.0f)",
+      "message": "Expected: 90\n  But was:  100"
+    },
+    {
+      "bug": 3,
+      "mode": "PlayMode",
+      "name": "HandleHit_FirstDamageable_EmitsExpiredSynchronously",
+      "message": "Expired must occur before HandleHit returns\n  Expected: 1\n  But was:  0"
+    },
+    {
+      "bug": 2,
+      "mode": "PlayMode",
+      "name": "HandleHit_RepeatedSameTarget_AppliesDamageOnlyOnce",
+      "message": "Expected is <System.Int32[1]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements\n  Values differ at index [1]\n  Extra:    < 17 >"
+    },
+    {
+      "bug": 2,
+      "mode": "PlayMode",
+      "name": "HandleHit_SecondTargetInSameFlight_DoesNotDamageSecondTarget",
+      "message": "Expected: <empty>\n  But was:  < 17 >"
+    },
+    {
+      "bug": 4,
+      "mode": "PlayMode",
+      "name": "Pool_ReusedProjectile_ResetsElapsedToZero",
+      "message": "Expected: 0\n  But was:  0.100000001f"
+    },
+    {
+      "bug": 4,
+      "mode": "PlayMode",
+      "name": "Pool_ThreeFlights_EachReceivesFullLifetime",
+      "message": "Flight 1 must receive its own complete lifetime\n  Expected: greater than or equal to 0.199000001f\n  But was:  0.0166668892f"
+    },
+    {
+      "bug": 1,
+      "mode": "PlayMode",
+      "name": "ControlRun_CreatesNineEnemies",
+      "message": "Expected: 9\n  But was:  5"
+    },
+    {
+      "bug": 1,
+      "mode": "PlayMode",
+      "name": "ControlRun_WaveCompleted_EmitsIndicesZeroOneTwo",
+      "message": "Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements\n  Values differ at index [2]\n  Missing:  < 2 >"
+    },
+    {
+      "bug": 1,
+      "mode": "PlayMode",
+      "name": "ControlRun_WaveSizes_AreTwoThreeFour",
+      "message": "Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements\n  Values differ at index [2]\n  Missing:  < 4 >"
+    },
+    {
+      "bug": 1,
+      "mode": "PlayMode",
+      "name": "ControlRun_WaveStarted_EmitsIndicesZeroOneTwo",
+      "message": "Expected is <System.Int32[3]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 2 elements\n  Values differ at index [2]\n  Missing:  < 2 >"
+    },
+    {
+      "bug": 1,
+      "mode": "PlayMode",
+      "name": "SingleWave_RunActuallySpawnsAndCompletesItsOnlyWave",
+      "message": "Expected is <System.Int32[1]>, actual is <System.Collections.Generic.List`1[System.Int32]> with 0 elements\n  Values differ at index [0]\n  Missing:  < 1 >"
+    }
+  ],
+  "runtime_unchanged": true
+}

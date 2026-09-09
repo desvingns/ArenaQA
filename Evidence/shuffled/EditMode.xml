@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="52" result="Failed(Child)" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0,1977224">
+  <test-suite type="TestSuite" id="1072" name="ArenaQA" fullname="ArenaQA" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.197722" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="suiteIsReordered" value="True" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1073" name="Arena.Tests.EditMode.dll" fullname="Arena.Tests.EditMode.dll" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.174442" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39876" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+        <property name="suiteIsReordered" value="True" />
+        <property name="childIndex" value="1" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1074" name="Arena" fullname="Arena" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.160204" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0">
+        <properties>
+          <property name="suiteIsReordered" value="True" />
+          <property name="childIndex" value="2" />
+        </properties>
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1075" name="Tests" fullname="Tests" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.152031" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="suiteIsReordered" value="True" />
+            <property name="childIndex" value="3" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1076" name="EditMode" fullname="EditMode" runstate="Runnable" testcasecount="52" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.131429" total="52" passed="22" failed="30" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="suiteIsReordered" value="True" />
+              <property name="childIndex" value="4" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1077" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.053308" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="5" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1078" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.043553" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="6" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1016" name="Calculate_ZeroBaseDamage_ReturnsMinimumOne" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_ZeroBaseDamage_ReturnsMinimumOne" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="657484136" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.028810" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1079" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.004200" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="7" />
+                </properties>
+                <test-case id="1005" name="Calculate_SpecificationRow_ReturnsExpectedDamage(10,0.0f,900,False,1.0f,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(10,0.0f,900,False,1.0f,1)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="362319336" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003164" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1080" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.007568" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="8" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1081" name="Pick_EqualWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003668" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="9" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1039" name="Pick_EqualWeights_OutOfRangeThrows(3)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows(3)" methodname="Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1409056948" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003133" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:37
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1082" name="TotalWeight_ControlTable_EqualsSum" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001317" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="10" />
+                </properties>
+                <test-case id="1057" name="TotalWeight_ControlTable_EqualsSum(&quot;zero&quot;,1)" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum(&quot;zero&quot;,1)" methodname="TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="830531513" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000714" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1083" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001131" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="11" />
+                </properties>
+                <test-case id="1046" name="Pick_RarityWeights_ControlRowReturnsExpectedId(0,&quot;common&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(0,&quot;common&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1158130482" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000640" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1084" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002535" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="12" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1085" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000836" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="13" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1004" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,50.0f,50,True,2.0f,200)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,50.0f,50,True,2.0f,200)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1051968719" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000096" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1008" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-50,False,1.0f,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-50,False,1.0f,100)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1591095028" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000254" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  200
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1086" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000855" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="14" />
+                </properties>
+                <test-case id="1027" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(10,900,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(10,900,1)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1764590902" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000443" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1087" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003361" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="15" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1088" name="Pick_EqualWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002791" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="16" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1036" name="Pick_EqualWeights_ControlRowReturnsExpectedId(1,&quot;B&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId(1,&quot;B&quot;)" methodname="Pick_EqualWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1784010769" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002012" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  String lengths are both 1. Strings differ at index 0.
+  Expected: "B"
+  But was:  "A"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId (System.Int32 roll, System.String expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:28
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1037" name="Pick_EqualWeights_ControlRowReturnsExpectedId(2,&quot;C&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId(2,&quot;C&quot;)" methodname="Pick_EqualWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="305579067" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000218" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  String lengths are both 1. Strings differ at index 0.
+  Expected: "C"
+  But was:  "B"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId (System.Int32 roll, System.String expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:28
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1089" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001125" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="17" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1090" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000589" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="18" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1010" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-1000,False,1.0f,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-1000,False,1.0f,100)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="733227102" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000263" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -12
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1091" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003089" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="19" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1092" name="Pick_EqualWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000414" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="20" />
+                </properties>
+                <test-case id="1035" name="Pick_EqualWeights_ControlRowReturnsExpectedId(0,&quot;A&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_ControlRowReturnsExpectedId(0,&quot;A&quot;)" methodname="Pick_EqualWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="596647227" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000094" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1093" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000601" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="21" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1050" name="Pick_RarityWeights_ControlRowReturnsExpectedId(95,&quot;epic&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(95,&quot;epic&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1343266862" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000272" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  String lengths are both 4. Strings differ at index 0.
+  Expected: "epic"
+  But was:  "rare"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId (System.Int32 roll, System.String expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:60
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1094" name="Pick_EqualWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000770" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="22" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1042" name="Pick_EqualWeights_OutOfRangeThrows(int.MaxValue)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows(int.MaxValue)" methodname="Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="295398521" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000323" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:37
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1095" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002592" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="23" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1096" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000885" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="24" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1021" name="Calculate_MinIntArmor_IsClampedToZero" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_MinIntArmor_IsClampedToZero" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="821288994" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000418" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -1
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1097" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000629" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="25" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1032" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-1000,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-1000,100)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1921789586" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000259" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -12
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical (System.Int32 damage, System.Int32 armor, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:58
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1098" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001687" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="26" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1099" name="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" fullname="Arena.Tests.EditMode.LootTableTests.Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000933" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="27" />
+                </properties>
+                <test-case id="1060" name="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry(0,&quot;A&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry(0,&quot;A&quot;)" methodname="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1307164281" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000383" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1100" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001230" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="28" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1101" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000550" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="29" />
+                </properties>
+                <test-case id="1026" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,100,50)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,100,50)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="776292688" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000113" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1102" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001135" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="30" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1103" name="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" fullname="Arena.Tests.EditMode.LootTableTests.Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000581" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="31" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1061" name="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry(1,&quot;B&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry(1,&quot;B&quot;)" methodname="Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1610583074" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000254" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  String lengths are both 1. Strings differ at index 0.
+  Expected: "B"
+  But was:  "A"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_ZeroWeightsInMiddleAndEnd_NeverSelectsZeroEntry (System.Int32 roll, System.String expected) [0x00043] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:88
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1104" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002336" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="32" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1105" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000389" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="33" />
+                </properties>
+                <test-case id="1002" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,0,False,1.0f,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,0,False,1.0f,100)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1704419923" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000099" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1106" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000424" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="34" />
+                </properties>
+                <test-case id="1018" name="Calculate_NegativeBaseAndBonus_AppliesMinimumOnlyAtEnd" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_NegativeBaseAndBonus_AppliesMinimumOnlyAtEnd" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="611829055" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000107" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1107" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000519" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="35" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1031" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-100,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-100,100)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="985658367" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000235" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -2147483648
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical (System.Int32 damage, System.Int32 armor, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:58
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1108" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001108" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="36" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1109" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000453" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="37" />
+                </properties>
+                <test-case id="1047" name="Pick_RarityWeights_ControlRowReturnsExpectedId(69,&quot;common&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(69,&quot;common&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="655796346" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000103" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1110" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003023" total="5" passed="3" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="38" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1111" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000792" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="39" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1006" name="Calculate_SpecificationRow_ReturnsExpectedDamage(5,0.0f,900,False,1.0f,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(5,0.0f,900,False,1.0f,1)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1854592312" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000267" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1003" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,100,False,1.0f,50)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,100,False,1.0f,50)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1474191988" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000085" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1112" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000822" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="40" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1017" name="Calculate_NegativeBaseDamage_ReturnsMinimumOne" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_NegativeBaseDamage_ReturnsMinimumOne" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="679832040" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000262" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  -10
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1013" name="Calculate_Critical_Floors16Point5To16" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_Critical_Floors16Point5To16" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="882872089" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000091" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1113" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000412" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="41" />
+                </properties>
+                <test-case id="1025" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,0,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,0,100)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1760729402" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000082" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1114" name="SmokeEditModeTests" fullname="Arena.Tests.EditMode.SmokeEditModeTests" classname="Arena.Tests.EditMode.SmokeEditModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001613" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="42" />
+              </properties>
+              <test-case id="1064" name="TestAssembly_IsWiredUp" fullname="Arena.Tests.EditMode.SmokeEditModeTests.TestAssembly_IsWiredUp" methodname="TestAssembly_IsWiredUp" classname="Arena.Tests.EditMode.SmokeEditModeTests" runstate="Runnable" seed="1845820408" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000717" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1115" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000930" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="43" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1044" name="Pick_LeadingZeroWeight_RollZeroReturnsB" fullname="Arena.Tests.EditMode.LootTableTests.Pick_LeadingZeroWeight_RollZeroReturnsB" methodname="Pick_LeadingZeroWeight_RollZeroReturnsB" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1625124238" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000392" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  String lengths are both 1. Strings differ at index 0.
+  Expected: "B"
+  But was:  "A"
+  -----------^
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_LeadingZeroWeight_RollZeroReturnsB () [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:43
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1116" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001070" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="44" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1117" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000559" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="45" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1028" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(5,900,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(5,900,1)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="2101130990" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000240" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical (System.Int32 damage, System.Int32 armor, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:58
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1118" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001295" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="46" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1119" name="Pick_EqualWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000629" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="47" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1041" name="Pick_EqualWeights_OutOfRangeThrows(int.MinValue)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows(int.MinValue)" methodname="Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1839353844" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000295" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:37
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1120" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001050" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="48" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1121" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000587" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="49" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1019" name="Calculate_Minus100PercentBonus_ReturnsMinimumOne" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_Minus100PercentBonus_ReturnsMinimumOne" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1339654501" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000280" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1122" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.003978" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="50" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1123" name="Pick_RarityWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000852" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="51" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1053" name="Pick_RarityWeights_OutOfRangeThrows(-1)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows(-1)" methodname="Pick_RarityWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="637064654" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000520" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:67
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1124" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001197" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="52" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1125" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000648" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="53" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1023" name="Calculate_MaxIntBaseWith100Armor_FloorsExactHalf" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_MaxIntBaseWith100Armor_FloorsExactHalf" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="79846010" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000326" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1073741823
+  But was:  1073741824
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1126" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000891" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="54" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1127" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000409" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="55" />
+                </properties>
+                <test-case id="1049" name="Pick_RarityWeights_ControlRowReturnsExpectedId(94,&quot;rare&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(94,&quot;rare&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="211997829" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000096" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1128" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002894" total="4" passed="1" failed="3" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="56" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1129" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000537" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="57" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1029" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(1,400,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(1,400,1)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1943186032" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000242" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical (System.Int32 damage, System.Int32 armor, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:58
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1130" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000842" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="58" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1020" name="Calculate_ZeroCriticalMultiplier_ReturnsMinimumOne" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_ZeroCriticalMultiplier_ReturnsMinimumOne" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1203643814" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000262" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1014" name="Calculate_NonCritical_IgnoresCriticalMultiplier" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_NonCritical_IgnoresCriticalMultiplier" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1503197324" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000095" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1131" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000557" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="59" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1009" name="Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-100,False,1.0f,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(100,0.0f,-100,False,1.0f,100)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="570666842" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000227" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  -2147483648
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1132" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.002733" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="60" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1133" name="TotalWeight_ControlTable_EqualsSum" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000372" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="61" />
+                </properties>
+                <test-case id="1056" name="TotalWeight_ControlTable_EqualsSum(&quot;equal&quot;,3)" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum(&quot;equal&quot;,3)" methodname="TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1649596956" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000086" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1045" name="Pick_LeadingZeroWeight_RollEqualToTotalThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_LeadingZeroWeight_RollEqualToTotalThrows" methodname="Pick_LeadingZeroWeight_RollEqualToTotalThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1604633223" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000755" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_LeadingZeroWeight_RollEqualToTotalThrows () [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:49
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1134" name="TotalWeight_ControlTable_EqualsSum" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000629" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="62" />
+                </properties>
+                <test-case id="1058" name="TotalWeight_ControlTable_EqualsSum(&quot;rarity&quot;,100)" fullname="Arena.Tests.EditMode.LootTableTests.TotalWeight_ControlTable_EqualsSum(&quot;rarity&quot;,100)" methodname="TotalWeight_ControlTable_EqualsSum" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1207504542" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000153" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1135" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001479" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="63" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1136" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000886" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="64" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1012" name="Calculate_Bonus25Percent_Floors12Point5To12" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_Bonus25Percent_Floors12Point5To12" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="354255067" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000117" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1022" name="Calculate_LargeIntegerWithoutModifiers_PreservesDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_LargeIntegerWithoutModifiers_PreservesDamage" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1031113605" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000277" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 16777217
+  But was:  16777216
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:45
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1137" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001066" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="65" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1138" name="Pick_EqualWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000578" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="66" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1040" name="Pick_EqualWeights_OutOfRangeThrows(-1)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows(-1)" methodname="Pick_EqualWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1473760100" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000275" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_EqualWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:37
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1139" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001163" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="67" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1140" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000614" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="68" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1030" name="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-50,100)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical(100,-50,100)" methodname="Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="795285281" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000285" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 100
+  But was:  200
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_TwoArgumentOverload_UsesNoBonusAndNoCritical (System.Int32 damage, System.Int32 armor, System.Int32 expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:58
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1141" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000839" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="69" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1142" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000361" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="70" />
+                </properties>
+                <test-case id="1051" name="Pick_RarityWeights_ControlRowReturnsExpectedId(99,&quot;epic&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(99,&quot;epic&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="2147009565" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000090" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1143" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001149" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="71" />
+              </properties>
+              <test-suite type="ParameterizedMethod" id="1144" name="Calculate_AdditionalBoundary_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000513" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="72" />
+                </properties>
+                <test-case id="1015" name="Calculate_FractionBeforeCritical_DoesNotRoundOrClampEarly" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_FractionBeforeCritical_DoesNotRoundOrClampEarly" methodname="Calculate_AdditionalBoundary_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="388574490" result="Passed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000120" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1145" name="LootTableTests" fullname="Arena.Tests.EditMode.LootTableTests" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.001826" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="73" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1146" name="Pick_RarityWeights_ControlRowReturnsExpectedId" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000573" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="74" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1048" name="Pick_RarityWeights_ControlRowReturnsExpectedId(70,&quot;rare&quot;)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId(70,&quot;rare&quot;)" methodname="Pick_RarityWeights_ControlRowReturnsExpectedId" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="1219934042" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000272" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected string length 4 but was 6. Strings differ at index 0.
+  Expected: "rare"
+  But was:  "common"
+  -----------^
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_ControlRowReturnsExpectedId (System.Int32 roll, System.String expected) [0x00000] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:60
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1147" name="Pick_RarityWeights_OutOfRangeThrows" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000556" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="75" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1054" name="Pick_RarityWeights_OutOfRangeThrows(100)" fullname="Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows(100)" methodname="Pick_RarityWeights_OutOfRangeThrows" classname="Arena.Tests.EditMode.LootTableTests" runstate="Runnable" seed="850834863" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000262" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: <System.ArgumentOutOfRangeException>
+  But was:  null
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.LootTableTests.Pick_RarityWeights_OutOfRangeThrows (System.Int32 roll) [0x0000c] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\LootTableTests.cs:67
+]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1148" name="DamageCalculatorTests" fullname="Arena.Tests.EditMode.DamageCalculatorTests" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000952" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="suiteIsReordered" value="True" />
+                <property name="childIndex" value="76" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-suite type="ParameterizedMethod" id="1149" name="Calculate_SpecificationRow_ReturnsExpectedDamage" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000530" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="suiteIsReordered" value="True" />
+                  <property name="childIndex" value="77" />
+                </properties>
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1007" name="Calculate_SpecificationRow_ReturnsExpectedDamage(1,0.0f,400,False,1.0f,1)" fullname="Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage(1,0.0f,400,False,1.0f,1)" methodname="Calculate_SpecificationRow_ReturnsExpectedDamage" classname="Arena.Tests.EditMode.DamageCalculatorTests" runstate="Runnable" seed="1372066957" result="Failed" start-time="2026-09-09 05:34:16Z" end-time="2026-09-09 05:34:16Z" duration="0.000241" asserts="0">
+                  <properties>
+                    <property name="suiteIsReordered" value="True" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[  Expected: 1
+  But was:  0
+]]></message>
+                    <stack-trace><![CDATA[at Arena.Tests.EditMode.DamageCalculatorTests.Calculate_SpecificationRow_ReturnsExpectedDamage (System.Int32 baseDamage, System.Single bonus, System.Int32 armor, System.Boolean critical, System.Single multiplier, System.Int32 expected) [0x00033] in D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\Assets\Tests\EditMode\DamageCalculatorTests.cs:26
+]]></stack-trace>
+                  </failure>
+                  <output><![CDATA[Saving results to: D:\Pet\Resume\companies\Highcore\QA Engineer\ArenaQA\analysis\validation-6000.6.0f1\TestResults\20260909-073409-898\EditMode.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
