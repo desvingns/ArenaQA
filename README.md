@@ -41,7 +41,7 @@ XML и логи каждого запуска сохраняются в ново
 
 ## GitHub Actions / GameCI
 
-Workflow запускается на `push`, `pull_request` и вручную через `workflow_dispatch`. Два режима тестов выполняются параллельно, `Library` кэшируется, XML и логи загружаются как artifacts, а результаты отображаются в GitHub Checks.
+Workflow запускается на `push`, `pull_request` и вручную через `workflow_dispatch`. Два режима тестов выполняются последовательно (`max-parallel: 1`), чтобы не занимать одновременно несколько Personal seats; `Library` кэшируется, XML и логи загружаются как artifacts, а результаты отображаются в GitHub Checks.
 
 Перед первым запуском в настройках репозитория добавьте secrets `UNITY_LICENSE`, `UNITY_EMAIL` и `UNITY_PASSWORD` для Unity Personal. `unityVersion: auto` берёт версию из `ProjectSettings/ProjectVersion.txt`.
 

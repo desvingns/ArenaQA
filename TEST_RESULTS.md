@@ -40,4 +40,8 @@
 
 ## CI
 
-Добавлен `.github/workflows/arena-tests.yml` с GameCI Unity Test Runner. Он запускает `editmode` и `playmode` в матрице, кэширует `Library`, публикует artifacts и GitHub Checks. Реальный запуск Actions требует репозитория и Unity secrets; в этой рабочей копии он не выполнялся.
+Добавлен `.github/workflows/arena-tests.yml` с GameCI Unity Test Runner. Он запускает `editmode` и `playmode` в матрице последовательно (`max-parallel: 1`), кэширует `Library`, публикует artifacts и GitHub Checks.
+
+Run [34319881051](https://github.com/desvingns/ArenaQA/actions/runs/34319881051) принял `UNITY_EMAIL` и `UNITY_PASSWORD`, активировал Unity 6000.3.11f1 и выполнил оба режима. Артефакты `ArenaQA-editmode-results` и `ArenaQA-playmode-results` сохранены; job получили красный статус из-за 45 ожидаемых падающих проверок. При завершении GameCI не смог вернуть Personal seat (`Unity_lic.ulf` отсутствовал в контейнере).
+
+После добавления последовательного запуска run [34320304567](https://github.com/desvingns/ArenaQA/actions/runs/34320304567) подтвердил, что следующий запуск ждёт освобождения этого seat и получает `no available seats`. Перед повтором нужно вернуть Personal-лицензию в Unity Hub или дождаться освобождения слота.
